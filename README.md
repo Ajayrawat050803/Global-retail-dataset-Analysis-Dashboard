@@ -1,16 +1,28 @@
-# Global Retail Analysis Dashboard 
+#  Global Retail Analysis: End-to-End Power BI Project
 
-## Project Overview
-This Power BI dashboard analyzes a global retail dataset to uncover key performance indicators (KPIs) regarding sales, profit margins, and regional trends. It is designed to help stakeholders make data-driven decisions to optimize inventory and marketing spend.
+##  Project Overview
+This project transforms a Global Retail dataset into a multi-layered analytical tool. It covers the full spectrum of data analysis: **Descriptive** (what happened), **Diagnostic** (why it happened), and **Predictive** (what will happen).
 
-## Key Business Insights
-* **Sales Growth:** Identified the top 3 regions contributing to over 50% of total revenue.
-* **Profitability:** Discovered that certain product sub-categories have high sales volume but low-profit margins due to shipping costs.
-* **Customer Behavior:** Segmented customers by purchase frequency to identify "High-Value" groups.
+##  Analytical Layers
 
-## 🛠️ Technical Skills Demonstrated
-* **Power Query:** Data cleaning and transformation.
-* **DAX:** Created measures for Year-over-Year (YoY) growth and Profit Margin %.
-* **Data Modeling:** Established relationships between sales, products, and geography tables.
+### 1. Descriptive Analytics (Market Overview)
+Focuses on historical sales performance across regions and segments.
+* **Total Sales:** $13M | **Total Profit:** $1.47M
+* **Key Insight:** The **Consumer Segment** is the largest driver of revenue ($6.5M).
+![Descriptive Dashboard](2_Descriptive.png)
 
+### 2. Diagnostic Analytics (Profitability Drivers)
+Analyzes the relationship between shipping costs, discounts, and profit.
+* **Key Insight:** **Tables** are currently a loss-leader (-$0.06M profit), likely due to high shipping costs in the Central region.
+![Diagnostic Dashboard](3_Diagnostic.png)
 
+### 3. Predictive Analytics (Forecasting)
+Uses historical trends to forecast future sales and identify risks.
+* **Growth Opportunity:** Technology continues to show the strongest upward trajectory.
+* **Risk ID:** Identifying declining regions to prevent future revenue churn.
+![Predictive Dashboard](4_Predictive.png)
+
+## 🛠️ Skills Demonstrated
+* **Advanced DAX:** Calculations for Average Shipping Cost and Total Profit.
+* **Data Storytelling:** Structured the report to guide stakeholders from overview to action.
+* **Trend Forecasting:** Implementing built-in Power BI analytics for sales projections.
